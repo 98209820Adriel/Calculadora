@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+div#fundo{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(45deg,#c9b065, #7d6a32);
+    height: 100vh;
+    
+    
+}
+
+.calculadora{
+    background-color: #0b1840;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 20px;    
+    box-shadow: 12px 12px rgba(0, 0, 0, 0.452);
+}
+
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #bdbfaa;
+    border: none;
+    color: rgb(51, 49, 49);
+    margin: 3px;
+    border-radius: 5px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.459);
+}
+
+.botao:hover, #bt0:hover, #bt1:hover{
+    background-color: #556773;
+}
+
+#nome{
+    padding: 5px;
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+    color: #0e3a73;
+    text-shadow: 2px 2px rgba(13, 6, 37, 0.747);
+    
+
+}
+
+#resultado{
+    width: 205px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: right;
+    padding: 8px;
+    margin: 8px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: -3px -3px 3px rgba(0, 0, 0, 0.411); 
+}
+
+#h1ca{
+    font-family: 'Orbitron' , sans-serif;
+    text-align: center;
+    color: #d4b75e;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.315);
+}
